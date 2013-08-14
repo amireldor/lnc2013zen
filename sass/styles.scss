@@ -133,3 +133,34 @@ article.node-1 {
 		clear: both;
 	}
 }
+
+#disqus_thread {
+	margin-top: 80px;
+}
+
+.region-footer {
+	font-size: 9pt;
+	text-align: center;
+}
+
+article.node-band-member {
+	.content {
+		$small-column-width: 200px;
+		$column-gutter: 20px;
+		.small-column {
+			text-align: left;
+			float: left;
+			width: $small-column-width;
+			padding: 0 $column-gutter $column-gutter 0;
+			color: $color2;
+		}
+		.big-column {
+			width: 100%;
+			margin-right: $small-column-width;
+			.field-name-body p {
+				margin-top: 0;
+			}
+		}
+
+	}
+}
