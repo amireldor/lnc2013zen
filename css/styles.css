@@ -1812,20 +1812,16 @@ a, #site-name a {
   color: white;
 }
 /* line 51, ../sass/styles.scss */
-a:visited, #site-name a:visited {
-  color: #759ac6;
-}
-/* line 54, ../sass/styles.scss */
 a:hover, #site-name a:hover {
   color: #d03136;
 }
 
-/* line 59, ../sass/styles.scss */
-strong, h1 {
+/* line 56, ../sass/styles.scss */
+strong, h1, h2 {
   color: #d03136;
 }
 
-/* line 63, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 #background-image {
   z-index: -50;
   position: absolute;
@@ -1834,55 +1830,63 @@ strong, h1 {
   right: 0;
   overflow: hidden;
 }
-/* line 70, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 #background-image img {
   min-width: 100%;
 }
 
-/* line 75, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 #header {
   text-align: center;
 }
-/* line 77, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 #header * {
   float: none;
 }
-/* line 81, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .not-front #header #logo {
   width: 300px;
   margin: 0 auto;
 }
-/* line 86, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 #header #site-name {
   display: none;
 }
-/* line 89, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 #header #logo, #header #name-and-slogan {
   display: block;
   color: white;
 }
-/* line 93, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 .front #header #logo a, .front #header #name-and-slogan a {
   color: #759ac6;
 }
-/* line 96, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .front #header #logo #site-slogan, .front #header #name-and-slogan #site-slogan {
   margin-top: 20px;
   margin-bottom: 50px;
   font-size: 36pt;
 }
-/* line 103, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 #header #logo {
   font-family: 'Doppio One', Arial, sans-serif;
 }
 
-/* line 109, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 #navigation #main-menu {
   text-align: center;
 }
-/* line 111, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 #navigation #main-menu * {
   text-align: center;
+}
+/* line 111, ../sass/styles.scss */
+#navigation #main-menu a {
+  color: #759ac6;
+}
+/* line 113, ../sass/styles.scss */
+#navigation #main-menu a:active {
+  color: white;
 }
 
 /*
@@ -1897,21 +1901,21 @@ article.node-1:before, article.node-1:after {
 article.node-1:after {
   clear: both;
 }
-/* line 123, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 article.node-1 .content .field-name-body {
   float: left;
   width: 66.66667%;
   margin-left: 0%;
   margin-right: -66.66667%;
 }
-/* line 126, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 article.node-1 .aside {
   float: left;
   width: 100%;
   margin-left: 66.66667%;
   margin-right: -166.66667%;
 }
-/* line 129, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 article.node-1 .content #disqus_thread {
   clear: both;
 }

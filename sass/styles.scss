@@ -48,15 +48,12 @@ body {
 
 a, #site-name a {
 	color: white;
-	&:visited {
-		color: $color1;
-	}
 	&:hover {
 		color: $color2;
 	}
 }
 
-strong, h1 {
+strong, h1, h2 {
 	color: $color2;
 }
 
@@ -110,6 +107,12 @@ strong, h1 {
 		text-align: center;
 		* {
 			text-align: center;
+		}
+		a {
+			color: $color1;
+			&:active {
+				color: white;
+			}
 		}
 	}
 }
