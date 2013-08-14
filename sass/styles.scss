@@ -144,6 +144,18 @@ article.node-1 {
 }
 
 article.node-band-member {
+	border: 1px dashed $color2;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 7px;
+
+
+	h2 {
+		font-weight: normal;
+		a {
+			text-decoration: none;
+		}
+	}
 	.content {
 		$small-column-width: 200px;
 		$column-gutter: 20px;

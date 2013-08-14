@@ -1931,7 +1931,22 @@ article.node-1 .content #disqus_thread {
   text-align: center;
 }
 
-/* line 150, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
+article.node-band-member {
+  border: 1px dashed #d03136;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 7px;
+}
+/* line 153, ../sass/styles.scss */
+article.node-band-member h2 {
+  font-weight: normal;
+}
+/* line 155, ../sass/styles.scss */
+article.node-band-member h2 a {
+  text-decoration: none;
+}
+/* line 162, ../sass/styles.scss */
 article.node-band-member .content .small-column {
   text-align: left;
   float: left;
@@ -1939,12 +1954,12 @@ article.node-band-member .content .small-column {
   padding: 0 20px 20px 0;
   color: #d03136;
 }
-/* line 157, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 article.node-band-member .content .big-column {
   width: 100%;
   margin-right: 200px;
 }
-/* line 160, ../sass/styles.scss */
+/* line 172, ../sass/styles.scss */
 article.node-band-member .content .big-column .field-name-body p {
   margin-top: 0;
 }
