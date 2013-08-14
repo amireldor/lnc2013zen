@@ -1,3 +1,14 @@
+This is the Drupal 7 theme for LOUD n' CLEAR's website for 2013. It's based
+on the Zen-theme for Drupal 7.
+
+This uses the Ruby gems 'sass' and 'compass'.
+
+
+
+- - - - - - - - - - - - -
+Original README.txt below
+- - - - - - - - - - - - -
+
 BUILD A THEME WITH ZEN
 ----------------------
 
