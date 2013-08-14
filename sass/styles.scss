@@ -24,13 +24,26 @@
 /* @import "theme-A"; */
 /* @import "theme-B"; */
 
+// load google fonts:
+@import url(http://fonts.googleapis.com/css?family=Doppio+One|Merriweather|Roboto+Slab:400,700);
+
+/*
+font-family: 'Doppio One', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+// start funtime
 $color1: #759ac6;
+$color2: #d03136;
 
 body {
 	color: $color1;
 	background: black;
-	font-family: Tahoma;
+	font-family: 'Roboto Slab', "Georgia", serif;
 	letter-spacing: 2px;
+	font-size: 16pt;
+	margin: 20px 0 0 0;
 }
 
 a, #site-name a {
@@ -38,10 +51,13 @@ a, #site-name a {
 	&:visited {
 		color: $color1;
 	}
+	&:hover {
+		color: $color2;
+	}
 }
 
-strong {
-	color: white;
+strong, h1 {
+	color: $color2;
 }
 
 #background-image {
@@ -58,35 +74,59 @@ strong {
 
 #header {
 	text-align: center;
-
-	.front & {
+	* {
+		float: none;
 	}
-
 	.not-front & {
 		#logo {
 			width: 300px;
-			float: none;
 			margin: 0 auto;
 		}
-		#site-name {
-			display: none;
-		}
 	}
-
+	#site-name {
+		display: none;
+	}
 	#logo, #name-and-slogan {
-		float: none;
 		display: block;
 		color: white;
-
 		.front & {
 			a {
 				color: $color1;
 			}
-
 			#site-slogan {
 				margin-top: 20px;
+				margin-bottom: 50px;
 				font-size: 36pt;
 			}
 		}
+	}
+	#logo {
+		font-family: 'Doppio One', Arial, sans-serif;
+	}
+}
+
+#navigation {
+	#main-menu {
+		text-align: center;
+		* {
+			text-align: center;
+		}
+	}
+}
+
+/*
+Custom styling for 'welcome' node (nid 1)
+*/
+article.node-1 {
+	$zen-column-count: 3;
+	@include zen-grid-container;
+	.content .field-name-body {
+		@include zen-grid-item(2, 1);
+	}
+	.aside {
+		@include zen-grid-item(3, 3);
+	}
+	.content #disqus_thread {
+		clear: both;
 	}
 }
